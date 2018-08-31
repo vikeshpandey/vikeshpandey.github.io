@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-[Java Tutorial](java.md)
+[Java Tutorial](java/java.md)
 
 
 
