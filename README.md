@@ -1,6 +1,6 @@
-## pandey-vikesh.github.io
+## Welcome to Github pages
 
-### Technology backyard for all tutorials.
+
 
 [Java Tutorial](java/java.md)
 
