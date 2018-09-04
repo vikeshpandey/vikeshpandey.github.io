@@ -8,6 +8,6 @@ This page aims to share tutorials, POCs, commonly faced issues and their fixes a
 
 [Java Tutorial](java/java.md)    
 [Python Tutorial](python/python.md)   
-[Machine Learning Tutorial](machine-learning/machine-learning.md)   
+[Machine Learning Tutorial](machine-learning/introduction.md)   
 [Data Structures Tutorial](data-structure/data-structure.md)
 
