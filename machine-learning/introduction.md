@@ -1,4 +1,4 @@
- ## Welcome to the world of machine learning.
+
  
 Machine learning is a subfield of artificial intelligence. Early AI programs typically excelled at just one thing. _Eg: deep blue could play chess at a championship level but that's all it could do._
 
