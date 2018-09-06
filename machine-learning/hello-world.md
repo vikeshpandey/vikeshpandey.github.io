@@ -24,3 +24,4 @@ Since we are using supervised learning approach here, the first thing to have is
 
 To collect our training data, imagine we head out to an orchard and look at different apples and oranges and start creating a table which describes their measurements. In machine learning world, we call these measurements as features.
 
+![data](ml_hello_world.png)
