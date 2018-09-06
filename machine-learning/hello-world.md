@@ -22,6 +22,10 @@ print("yay m born")
 
 Since we are using supervised learning approach here, the first thing to have is training data. These are examples of the problem we want to solve. For our problem, we're going to write a function to classify a piece of fruit that will take a description of the fruit as input, and predict whether it's an apple or oranges output based on features like its weight and texture.
 
+Let us get familiar with some terms:
+-feature: feature is a property in the data set which is used to identify something.
+- classifier: Classifier is a box of rules which reads  the training data to make predictions.
+
 To collect our training data, imagine we head out to an orchard and look at different apples and oranges and start creating a table which describes their measurements. In machine learning world, we call these measurements as features.
 
  To keep things simple, Let us have a look at the table below. We use two features. How much each fruit weighs and it's texture which can be bumpy or smooth. A good feature makes it easy to discriminate between different types of fruits. Each row in our training data. The last column is called the label it identifies what type of fruit is in each row and there are just two possibilities apples and oranges the whole table is our training data. What is happening in-turn is, our classifier will be trained on this data to identify outputs.
@@ -32,11 +36,18 @@ To collect our training data, imagine we head out to an orchard and look at diff
 
 You can think of `features` as the inputs of the classifier and `labels` as the output. We would change the variable type of all our `features` to `integers` instead of `strings`, so we use `0` for bumpy and `1` for smooth. We do the same for our `labels`, so we use `0` for Apple and `1` for orange.
 
-8. Now let us add the line in our program depicting the above logic like this:
+8. Now let us add some lines in our program depicting the above logic like this:
 ````
 #features 1 for smooth and 0 for bumpy , the first value is the weight
 #labels 0 for apple and 1 for orange
-features = [[140, 1], [130, 1], [150, 0], [170, 0]]
+features = [[150, 0], [170, 0], [140, 1], [130, 1]]
 labels = [0, 0, 1, 1]
 ````
+
+9. We would use Decision Tree Classifier in this program. For a detailed explanation about decision tree classifier, please read [this](http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html) link. This is how we initialize classifier. But remember, it is still an empty box of rules since it has not read any data.
+````
+clf = tree.DecisionTreeClassifier()
+````
+
+
 
