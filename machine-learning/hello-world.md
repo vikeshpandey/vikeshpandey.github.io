@@ -45,15 +45,16 @@ What is happening in-turn is, our classifier will be trained on this data to ide
 
 
 * Now let us add some lines in our program depicting the above logic like this:
+
 ````
-#features 1 for smooth and 0 for bumpy , the first value is the weight
-#labels 0 for apple and 1 for orange
+    # features 1 for smooth and 0 for bumpy , the first value is the weight, labels 0 for apple and 1 for orange
 features = [[150, 0], [170, 0], [140, 1], [130, 1]]
 labels = [0, 0, 1, 1]
 ````
 
 * We would use Decision Tree Classifier in this program. For a detailed explanation about decision tree classifier, please read [this](http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html) link. 
 This is how we initialize classifier. But remember, it is still an empty box of rules since it has not read any data.
+
 ````
 clf = tree.DecisionTreeClassifier()
 ````
@@ -61,16 +62,19 @@ clf = tree.DecisionTreeClassifier()
 * Now, we would try to feed data to this classifier. Remember, we created two variables `features` and `labels`. 
 These variables would be supplied to the classifier and classifier will read and understand the data to create a tree based decision model. 
 Below is the code for that:
+
 ````
 clf = clf.fit(features, labels)
 ````
 
 * Next, we will supply a new test input and see how well the classifier predicts if it is an apple or orange:
+
 ````
 print (clf.predict([[120,1]]))
 ````
 
 * Now, our program is complete, the complete file looks like this:
+
 ````
 import sklearn
 from sklearn import tree
@@ -87,6 +91,7 @@ print (clf.predict([[120,1]]))
 ````
 
 * Upon running this program, following should be the expected output:
+
 ````
 yay m born
 [0]
