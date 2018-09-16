@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Writing your first program in machine learning"
+date:   2018-09-16 20:33:57 +0530
+categories: machine-learning
+permalink: /:categories/hello-world.html
+---
 
 ### Writing your first program in machine learning.
 
@@ -37,7 +44,7 @@ A good feature makes it easy to discriminate between different types of fruits. 
 What is happening in-turn is, our classifier will be trained on this data to identify outputs.
   
   
-   ![data](ml_hello_world.png)
+   ![ml_hello_world]({{ site.url }}/assets/machine-learning/ml_hello_world.png)
 
 
    You can think of `features` as the inputs of the classifier and `labels` as the output. We would change the variable type of all our `features` to `integers` instead of `strings`, 

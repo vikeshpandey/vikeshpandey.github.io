@@ -1,4 +1,11 @@
-
+---
+layout: post
+title:  "An introduction to machine learning"
+date:   2018-09-16 19:33:57 +0530
+categories: machine-learning
+permalink: /:categories/introduction.html
+visible: 0
+---
  
 Machine learning is a subfield of artificial intelligence. Early AI programs typically excelled at just one thing. _Eg: deep blue could play chess at a championship level but that's all it could do._
 
@@ -17,4 +24,4 @@ we need an algorithm that can figure out the rules for us so we don't have to wr
 
 Please click on the link below to head over to the first program we are going to write for supervised machine learning.
 
-[Hello-World](hello-world.md)
+[Hello-World]({{ site.baseurl }}{% post_url /machine-learning/2018-09-16-hello-world %})
