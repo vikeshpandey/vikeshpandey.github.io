@@ -124,7 +124,7 @@ You can easily avoid this pitfall by first understanding the advantages and disa
  your business needs and goals to determine if micro-services is the right approach  for the problem you are trying to 
  solve. When determining whether micro-services is a fit, ask yourself the following questions:
  * What are my business and technical goals?
- * What am I trying to accomplish with microservices?
+ * What am I trying to accomplish with micro-services?
  * What are my current and foreseeable pain points?
  * What are the primary driving architecture characteristics for this application (e.g., performance, scalability, maintainability etc.)?
  
