@@ -26,3 +26,7 @@ we need an algorithm that can figure out the rules for us so we don't have to wr
 Please click on the link below to head over to the first program we are going to write for supervised machine learning.
 
 [Hello-World]({{ site.baseurl }}{% post_url /machine-learning/2018-09-16-hello-world %})
+
+If you have any questions or feedback, please put your thoughts in the comments section below.
+
+Happy learning !!

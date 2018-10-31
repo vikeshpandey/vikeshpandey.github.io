@@ -10,8 +10,8 @@ comments: true
 In this tutorial, we are going to learn how to serialize and de-serialize java objects to/from json.
 
 For serialization to json, there are multiple libraries provided which can be used for this purpose.
-Though the most widely used libraries are [jackson](https://github.com/FasterXML/jackson), [gson](https://github.com/google/gson)
-and [json-simple](https://github.com/fangyidong/json-simple).
+Though the most widely used libraries are [jackson](https://github.com/FasterXML/jackson){:target="_blank"}, [gson](https://github.com/google/gson){:target="_blank"}
+and [json-simple](https://github.com/fangyidong/json-simple){:target="_blank"}.
 
 `json-simple`'s github repo has been inactive since 2014 so that goes out of comparison right away (You don't want to 
 use a dead library !!). `jackson` is quite popular but in terms of performance, `gson` scores better. 
@@ -37,7 +37,7 @@ Let us quickly get down to action. Below are examples of java<->json using `gson
     <version>2.8.5</version>
   </dependency>
   ````
-  If you are working in native style, you can download the latest `gson` jar from [here](https://mvnrepository.com/artifact/com.google.code.gson/gson)
+  If you are working in native style, you can download the latest `gson` jar from [here](https://mvnrepository.com/artifact/com.google.code.gson/gson){:target="_blank"}
   
   PS: Whichever way you include `gson`, please ensure to use latest version.
   
@@ -129,10 +129,10 @@ Let us quickly get down to action. Below are examples of java<->json using `gson
   <br/>
 
 This concludes our tutorial explaining conversion of java object to/from json using `gson`. For downloading the complete code
-of the above example, please go to this [link](https://github.com/vikeshpandey/serialize-deserialize).
+of the above example, please go to this [link](https://github.com/vikeshpandey/serialize-deserialize){:target="_blank"}.
 
-If you want to explore more advanced features of `gson`, please visit this [link](https://github.com/google/gson/blob/master/UserGuide.md)  
+If you want to explore more advanced features of `gson`, please visit this [link](https://github.com/google/gson/blob/master/UserGuide.md){:target="_blank"}  
 
-If you have questions or feedback, please reach out to me on my email or on my github page.
+If you have any questions or feedback, please put your thoughts in the comments section below.
 
-Happy Learning !!
+Happy learning !!

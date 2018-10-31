@@ -70,8 +70,10 @@ versioning of such library is also a hygiene practice which is also an important
 
 
 We still have 4 more of such important anti-patterns and pitfalls to discuss about which would be published in the [second 
-part]({{ site.baseurl }}{% post_url /micro-services/2018-10-27-anti-patterns-part-2 %}). Keep watching this space for updates.
+part]({{ site.baseurl }}{% post_url /micro-services/2018-10-27-anti-patterns-part-2 %}).
 
+
+If you have any questions or feedback, please put your thoughts in the comments section below.
 
 Happy learning !!
 

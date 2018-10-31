@@ -10,14 +10,14 @@ comments: true
 ### Case study in ML - Iris flower data-set.
 
 Today, we are going to talk about the implementation of machine-learning to solve a classic problem in data science, 
-which is, [iris flower data-set](https://en.wikipedia.org/wiki/Iris_flower_data_set). This is one of the first and 
+which is, [iris flower data-set](https://en.wikipedia.org/wiki/Iris_flower_data_set){:target="_blank"}. This is one of the first and 
 basic case studies machine-learning enthusiasts encounter while working on machine learning. 
 
 The aim of this case study is to see if a program can predict the type of flower correctly if it has been trained on 
 similar data of flowers. 
 
 
-For this, we would take the iris data set from this [link](https://en.wikipedia.org/wiki/Iris_flower_data_set).
+For this, we would take the iris data set from this [link](https://en.wikipedia.org/wiki/Iris_flower_data_set){:target="_blank"}.
 The data set includes three different types of flowers. They are all species of iris named as `setosa`, `versicolor` and
  `virginica`. Below a sample screenshot of how the data looks like:
  
@@ -50,7 +50,7 @@ this now:
    iris = load_iris()
   ````
 * Now, we would identify some rows in the data set, which we would use to predict the output later. For this example, we
-  would get the `0th`, `50th` and `100th` row from the data set. If we look at the data set from the [link](https://en.wikipedia.org/wiki/Iris_flower_data_set) 
+  would get the `0th`, `50th` and `100th` row from the data set. If we look at the data set from the [link](https://en.wikipedia.org/wiki/Iris_flower_data_set){:target="_blank"} 
   we can clearly identify that `0th`, `50th` and `100th` row corresponds to `setosa`, `versicolor` and `virginica` respectively.
   So basically, we have picked one flower of each type for our testing data.
 
@@ -121,9 +121,10 @@ this now:
   
 This concludes our case study of iris flower data set using machine learning.
 
-Should you have any questions or comments, please feel to reach out to me on my email or github page.
+If you have any questions or feedback, please put your thoughts in the comments section below.  
 
-Happy Learning !!  
+Happy learning !!
+
       
       
   

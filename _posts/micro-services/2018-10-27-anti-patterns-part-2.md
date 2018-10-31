@@ -55,7 +55,7 @@ There are three main areas which can help to determine service granularity.
  performed you can spot mutually exclusive operations, it should be broken there.
  
  * ***Database Transactions***: Generally, a typical database transaction is expected to be 
- [ACID](https://en.wikipedia.org/wiki/ACID_(computer_science)) compliant. But in micro-services, we rely on BASE(basic 
+ [ACID](https://en.wikipedia.org/wiki/ACID_(computer_science)){:target="_blank"} compliant. But in micro-services, we rely on BASE(basic 
  availability, soft state, and eventual consistency) transactions. Regardless, there will usually be times where you do 
  require an ACID transaction for certain business operations. If you constantly find yourself struggling to maintain BASE
  transaction to perform operation which are more like ACID transactions, chances are that you have made your services 
@@ -130,3 +130,9 @@ You can easily avoid this pitfall by first understanding the advantages and disa
  
  Answering these questions can help you match up your business needs and goals with the advantages and disadvantages of 
  micro-services to determine if it is truly the right fit for your situation.
+ 
+ If you want to learn more about micro-services anti-patterns, you may read this [book](https://www.oreilly.com/library/view/microservices-antipatterns-and/9781492042716/){:target="_blank"}
+ 
+ If you have any questions or feedback, please put your thoughts in the comments section below.
+ 
+  Happy learning !!

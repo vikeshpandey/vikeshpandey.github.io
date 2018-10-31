@@ -10,8 +10,8 @@ comments: true
 ### Writing your first program in machine learning.
 
 
-*  Install `python`. Download and install it from [here](https://www.python.org/downloads/)
-* Install `scikit-learn` library. For downloading and installation, follow the steps mentioned [here](http://scikit-learn.org/stable/install.html). 
+*  Install `python`. Download and install it from [here](https://www.python.org/downloads/){:target="_blank"}
+* Install `scikit-learn` library. For downloading and installation, follow the steps mentioned [here](http://scikit-learn.org/stable/install.html){:target="_blank"}. 
 If you have installed `Anaconda`, then `scikit-learn` is probably installed out of the box. You can directly go to `Spyder` editor (comes out of the box with Anaconda installation) and start with the program. 
 Or else, you may choose any other IDE of your choice provided you have correctly installed `scikit-learn`.
 
@@ -60,7 +60,7 @@ features = [[150, 0], [170, 0], [140, 1], [130, 1]]
 labels = [0, 0, 1, 1]
 ````
 
-* We would use Decision Tree Classifier in this program. For a detailed explanation about decision tree classifier, please read [this](http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html) link. 
+* We would use Decision Tree Classifier in this program. For a detailed explanation about decision tree classifier, please read [this](http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html){:target="_blank"} link. 
 This is how we initialize classifier. But remember, it is still an empty box of rules since it has not read any data.
 
 ````
@@ -107,4 +107,7 @@ yay m born
 
 This means, that the program has predicted the input as apple (0 denotes apple). This concludes our first program of supervised machine learning.
 
+If you have any questions or feedback, please put your thoughts in the comments section below.
+
 Happy learning !!
+
