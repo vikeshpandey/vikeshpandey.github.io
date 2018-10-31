@@ -4,6 +4,7 @@ title:  "Micro-services: Anti-Patterns (Part 1)"
 date:   2018-10-27 00:00:00 +0530
 categories: micro-services
 permalink: /:categories/anti-patterns-part-1.html
+comments: true
 ---
 
 ### What are anti-patterns ?
@@ -63,7 +64,8 @@ systems that are very difficult to test and deploy.
 The first step is to carefully identify the shared pieces, keep the dependency count low and share the modules as 
 stateless libraries (jars etc.).While creating such libraries, an important step is to identify when and how to create them.
 In some cases, it is better to break the libraries in stable (rarely changes) and volatile (change too often), while in other
-cases, developers might break it based on its responsibilities, like authentication lib, Date-time libs etc.
+cases, developers might break it based on its responsibilities, like authentication lib, Date-time libs etc. Consistent 
+versioning of such library is also a hygiene practice which is also an important part of software discipline.
 
 
 
@@ -72,3 +74,4 @@ part]({{ site.baseurl }}{% post_url /micro-services/2018-10-27-anti-patterns-par
 
 
 Happy learning !!
+

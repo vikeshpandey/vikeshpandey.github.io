@@ -4,6 +4,7 @@ title:  "How to serialize/deserialize objects in java"
 date:   2018-09-18 20:33:57 +0530
 categories: java
 permalink: /:categories/serialize-deserialize.html
+comments: true
 ---
 
 In this tutorial, we are going to learn how to serialize and de-serialize java objects to/from json.

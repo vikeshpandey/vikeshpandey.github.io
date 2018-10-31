@@ -5,6 +5,7 @@ date:   2018-09-16 19:33:57 +0530
 categories: machine-learning
 permalink: /:categories/introduction.html
 visible: 0
+comments: true
 ---
  
 Machine learning is a subfield of artificial intelligence. Early AI programs typically excelled at just one thing. _Eg: deep blue could play chess at a championship level but that's all it could do._

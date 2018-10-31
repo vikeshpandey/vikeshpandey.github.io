@@ -4,6 +4,7 @@ title:  "A case study in ML - Iris flower data set"
 date:   2018-09-24 07:33:57 +0530
 categories: machine-learning
 permalink: /:categories/iris-flower.html
+comments: true
 ---
 
 ### Case study in ML - Iris flower data-set.

@@ -4,6 +4,7 @@ title:  "Writing your first program in machine learning"
 date:   2018-09-16 20:33:57 +0530
 categories: machine-learning
 permalink: /:categories/hello-world.html
+comments: true
 ---
 
 ### Writing your first program in machine learning.
